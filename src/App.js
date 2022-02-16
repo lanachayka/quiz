@@ -1,6 +1,10 @@
+import ThemesList from "./components/ThemesList/ThemesList";
+
 function App() {
   return (
-    <div className="App">
+    <div>
+      <h1>Вікторина</h1>
+      <ThemesList />
     </div>
   );
 }
