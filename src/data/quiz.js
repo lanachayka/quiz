@@ -45,5 +45,33 @@ export const quiz = [
                 variants: ["20 000", "10 000", "15 000", "16 000"]
             },
         ]
-    }
+    },
+    {
+        name: "Кіно",
+        quietions: []
+    },
+    {
+        name: "Спорт",
+        quietions: []
+    },
+    {
+        name: "Наука",
+        quietions: []
+    },
+    {
+        name: "Музика",
+        quietions: []
+    },
+    {
+        name: "Знаменитості",
+        quietions: []
+    },
+    {
+        name: "Відомі пам'ятки",
+        quietions: []
+    },
+    {
+        name: "Всесвітня історія",
+        quietions: []
+    },
 ];

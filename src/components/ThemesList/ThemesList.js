@@ -10,11 +10,15 @@ export default function ThemesList() {
     dispatch(chooseThema(thema));
   }
   return (
-    <div>
-      <h3>Перелік тем</h3>
-      <ul>
+    <div className={st.wrapper}>
+      <h3 className={st.title}>Обирай тему</h3>
+      <ul className={st.list}>
         {quiz.map(theme => (
-          <li onClick={() => setThema(theme.name)} key={theme.name}>{theme.name}</li>
+          <li
+            className={st.item}
+            onClick={() => setThema(theme.name)}
+            key={theme.name}
+          >{theme.name}</li>
         ))}
       </ul>
     </div>
