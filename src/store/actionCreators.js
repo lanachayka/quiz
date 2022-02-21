@@ -6,3 +6,15 @@ export const chooseThema = (thema) => {
         payload: thema
     }
 }
+
+export const correctAnswer = () => {
+    return {
+        type: actionTypes.CORRECT_ANSWER,
+    }
+}
+
+export const endQuiz = () => {
+    return {
+        type: actionTypes.END_QUIZ,
+    }
+}
