@@ -18,3 +18,9 @@ export const endQuiz = () => {
         type: actionTypes.END_QUIZ,
     }
 }
+
+export const startQuiz = () => {
+    return {
+        type: actionTypes.START_QUIZ,
+    }
+}

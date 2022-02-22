@@ -3,7 +3,7 @@ import st from './Variants.module.css'
 
 export default function Variants({name, variants, setAnswer}) {
   return (
-      <div>
+      <div className={st.wrapper}>
           {variants.map(variant => (
               <label key={variant} htmlFor={variant} className={st.radio}>
                   <input

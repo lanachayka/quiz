@@ -1,3 +1,9 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .radio>input {
     position: absolute;
     z-index: -1;
@@ -26,5 +32,5 @@
 }
 
 .radio>input:checked+span::before {
-   background: rgba(255, 255, 255, 0.9);
+    background: linear-gradient(to right, blue, pink);
 }

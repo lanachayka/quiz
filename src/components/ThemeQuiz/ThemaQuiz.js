@@ -33,11 +33,11 @@ export default function ThemaQuiz() {
   return (
     <div className={st.wrapper}>
       <h3 className={st.title}>{thema}</h3>
-      <p>{question.question}</p>
+      <p className={st.text}>{question.question}</p>
       <Variants name={question.question} variants={question.variants} setAnswer={setAnswer}/>
       {questionNumber >= themaQuestions.questions.length-1
-        ? <button onClick={showResult}>Show Result</button>
-        : <button onClick={nextQuestion}>Next question</button>}
+        ? <button className={st.btn} onClick={showResult}>Show Result</button>
+        : <button className={st.btn} onClick={nextQuestion}>Next question</button>}
     </div>
   )
 }

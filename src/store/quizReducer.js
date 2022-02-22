@@ -14,6 +14,9 @@ const quizReducer = (state = initialState, action) => {
         case (actionTypes.CORRECT_ANSWER): {
             return { ...state, userResult: state.userResult + 1 }
         }
+        case (actionTypes.START_QUIZ): {
+            return { ...state, endQuiz: false }
+        }
         case (actionTypes.END_QUIZ): {
             return { ...state, endQuiz: true }
         }

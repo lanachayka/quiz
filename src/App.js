@@ -5,7 +5,7 @@ import Header from "./components/Header/Header";
 import Result from "./components/Result/Result";
 
 function App() {
-  const { thema, endQuiz} = useSelector(state => state.quiz);
+  const { thema, endQuiz } = useSelector(state => state.quiz);
   return (
     <div>
       <Header />
